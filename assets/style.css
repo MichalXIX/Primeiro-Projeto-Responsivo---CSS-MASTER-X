@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    margin: 44px 0 138px 76px;
+}
+
+header a {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.button-header {
+    background-color: #665AE1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    width: 521px;
+}
+
+h3 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-section {
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    flex-shrink: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-section:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        width: 90vw;
+        height: 39vh;
+        display: block;
+        margin: 0 auto;
+        margin-top: 149px;
+    }
+
+    section {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        display: block;
+        margin: 0 auto;
+        width: 70vw;
+        font-size: 50px;
+        font-weight: 900;
+        margin-top: 24px;
+    }
+
+    h3 {
+        display: block;
+        margin: 0 auto;
+        width: 60vw;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+
+}
