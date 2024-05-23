@@ -14,4 +14,4 @@
 <img src="https://github.com/MichalXIX/We-Care/blob/master/assets/image.read.me/Design%20sem%20nome_20240521_210520_0000.png?raw=true" />
 
 <p>Aprendi no</p>
-<a href"https://aulas.devclub.com.br/aulas/git-github-devclub-full-stack">Dev Club</a>
+<a href"https://rodolfomori.com.br/devclub/">Dev Club</a>
